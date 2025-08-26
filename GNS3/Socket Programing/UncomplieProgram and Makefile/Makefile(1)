@@ -1,0 +1,12 @@
+all: TCP_receiver UDP_receiver TCP_sender UDP_sender UDP_select
+
+TCP_receiver: TCP_receiver.c
+	gcc -m32 -o TCP_receiver TCP_receiver.c
+UDP_receiver: UDP_receiver.c
+	gcc -m32 -o UDP_receiver UDP_receiver.c
+TCP_sender: TCP_sender.c
+	gcc -m32 -o TCP_sender TCP_sender.c
+UDP_sender: UDP_sender.c
+	gcc -m32 -o UDP_sender UDP_sender.c
+UDP_select: UDP_select.c
+	gcc -m32 -o UDP_select UDP_select.c

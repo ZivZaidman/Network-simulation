@@ -1,0 +1,26 @@
+SCP:
+copying a file from local to remote: 
+		scp /path/to/local/file username@remote_host:/path/to/remote/directory
+Copying a Directory:
+		scp -r /path/to/local/directory username@remote_host:/path/to/remote/
+making a new folder "newfolder":
+		mkdir newfolder
+changing mode to func "function":
+		chmod 777 function
+
+
+TCP:
+1. start TCP_sender with: sender IP, rand port x, rand amount y, alice.txt
+2. start TCP_reciver with: sender's IP, x, y
+3. fin
+
+
+UDP:
+1. start UDP_reciver with: reciver's IP, rand port x, rand amount y
+2. start USP_sender with: reciver's IP, x,y, alice.txt
+3. FIN
+
+
+Select_server: (topography 13)
+1. start Select_server on reciver PC (its going to recive UDP data from alot of ports): Select_server port_1, port_2,...,port_n
+2. start UDP_sender with: reciver's IP, port_i, rand amount, alice.txt

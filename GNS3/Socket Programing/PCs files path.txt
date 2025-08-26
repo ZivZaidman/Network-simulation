@@ -1,0 +1,8 @@
+PC1: 		
+		home/ubu/file/
+PC2: 		
+		/home/ubu/file/bls
+PC3:
+		/home/ubu/file/bls
+PC4:
+		/home/ubu/file/bls
