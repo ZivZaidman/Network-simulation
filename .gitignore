@@ -1,3 +1,11 @@
+GNS3/**/project-files/
+*.ghost
+*.bin
+*.image
+*.qcow2
+*.vmdk
+*.nvram
+
 # Prerequisites
 *.d
 
